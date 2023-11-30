@@ -1,0 +1,21 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.32f1 (12f8b0834f07) revision 1243312'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ko' Physical Memory: 16145 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.32f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker18
+-projectPath
+E:/내일배움캠프/사전캠프/Uniy기초/rainRtan
+-logFile
+Logs/AssetImportWorker18.log
+-srvPort
+54868
+Successfully changed project path to: E:/내일배움캠프/사전캠프/Uniy기초/rainRtan
+E:/내일배움캠프/사전캠프/Uniy기초/rainRtan
+Using Asset Import Pipeline V2.
