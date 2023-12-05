@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 22
-  productGUID: e49f1a1c06f9ec64cb8d0f2b459b710c
+  productGUID: 90cd5abe9f2aa6046b1443b03cc9d901
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -637,7 +637,8 @@ PlayerSettings:
   XboxOneOverrideIdentityName: 
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    Collab: 1
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
