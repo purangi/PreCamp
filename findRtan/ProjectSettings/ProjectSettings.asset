@@ -250,7 +250,7 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: '{inproject}: spartakey.keystore'
+  AndroidKeystoreName: '{inproject}: spartKey.keystore'
   AndroidKeyaliasName: spartakey
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
