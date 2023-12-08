@@ -14,6 +14,9 @@ public class GameManager : MonoBehaviour
     public GameObject secondCard;
     public GameObject endTxt;
 
+    public AudioClip match;
+    public AudioSource audioSource;
+
     public static GameManager I;
 
     void Awake()
@@ -65,6 +68,7 @@ public class GameManager : MonoBehaviour
         if(firstCardImage == secondCardImage)
         {
             //매칭 성공 -> 없애자
+            audioSource.PlayOneShot(match);
             firstCard.GetComponent<card>().destroyCard();
             secondCard.GetComponent<card>().destroyCard();
 
