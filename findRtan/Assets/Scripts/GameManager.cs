@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using System.Linq;
 
 public class GameManager : MonoBehaviour
@@ -93,5 +94,10 @@ public class GameManager : MonoBehaviour
     {
         endTxt.SetActive(true);
         Time.timeScale = 0f;
+    }
+
+    public void retryGame()
+    {
+        SceneManager.LoadScene("MainScene");
     }
 }
